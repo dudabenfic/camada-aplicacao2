@@ -3,7 +3,6 @@
 Camada de Aplicação 2
 
 Projeto de integração: ESP32 → ESP-NOW → ESP32 → ESP32 → Backend (FastAPI) → InfluxDB → Grafana
-Repositório: adicione seu link aqui
 
 1. Como montar o projeto
 Pré-requisitos:
@@ -33,7 +32,7 @@ Sensores utilizados (exemplo):
 
 DHT11 — temperatura e umidade
 
-MQ-X — concentração de gás
+MQ-X/Potenciometro — concentração de gás
 
 Outros sensores opcionais
 
@@ -87,7 +86,7 @@ Montar JSON
 
 Realizar POST para o FastAPI
 
-Envio periódico de mock (10s)
+Envio periódico do pacote
 
 Reconexão automática ao WiFi
 
